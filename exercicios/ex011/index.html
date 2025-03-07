@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagen/favicon.ico.png" type="image/x-icon">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagen dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture><!--Cada imagen tem seu tamanho especifico para abrir em dispositivos de tamanhos diferentes. ex: P para celula, M para tablet e G para Pc ou Tv. width refere-se a largura-->
+        <source media="(max-width: 750px)" srcset="Imagen/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagen/foto-m.png" type="image/png">
+        <img src="imagen/foto-g.png" alt="Imagen flexível">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio src="midia/sou-gih.ogg" controls></audio><!--Use autoplay para áudios automaticos-->
+    <h2>Opções de áudios para navegadores diferentes</h2>
+    <h3>Reproduzindo áudio</h3>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload="metadata" controls loop><!--autoplay, reproduz o áudio sozinho, controls, mostra o botão do play e o loop, repete o audio-->
+        <source src="midia/sou-gih.mp3" type="audio/mpeg">
+        <source src="midia/sou-gih.ogg" type="audio/ogg">
+        <source src="midia/sou-gih.wav" type="audio/wav"><!--Tente evitar o arquivo WAV, pois ele é muito pesado.-->
+        <p>Infelizmente seu navegador não consegue reproduzir áudio.</p><a href="midia/sou-gih.ogg">Clique aqui para baixar o arquivo OGG</a>
+    </audio>
+</body>
+</html>

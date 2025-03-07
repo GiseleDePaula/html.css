@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagen/GP-icon.png" type="image/x-icon">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <video width="500" poster="imagen/lemon.png" controls >
+        <source src="midia/Meu-Video.webm.webm" type="video/webm">
+        <source src="midia/meu-vidoo-mp4.mp4" type="video/mp4">
+        <source src="midia/meu-vidoo-ogv.ogv" type="video/ogv">
+        <p>Seu navegador nâo temcompatibilidade com reprodução de video.</p>
+    </video><!--Sempre por ordem de tamanho de gigabyt. Lembrando que usar vídeos hospedados no seu servidor fica muito caro para o cliente é muito consumo de banda . some os KB e verás a quantidade de dados usa os vídeos.-->
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/GQYVu94I998?si=7tdSI32opQwkCRXx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h1>Inserindo vídeo do Vimeo</h1>
+    <div style="padding:66.67% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/176095564?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:500px;height: 315px;" title="Demo Reel 2016"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+</body>
+</html>
