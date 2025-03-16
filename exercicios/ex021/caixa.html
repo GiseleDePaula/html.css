@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagen/GP-icon.png" type="image/x-icon">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1 { /* box-level muda caracteristicas*/
+
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+            
+            /*
+            border-width: 10px;
+            border-style: solid;
+            border-color: lightcoral;
+            PARA SIMPLIFICAR VEJA ABAIXO USANDO SHORTHAND
+            */   
+           
+            border: 10px solid lightcoral;
+
+            /*padding-top: 10px; ( sempre seguir a ordem, em cima, direita. em baixo e esquerda, sentido horario)
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            SE POR SOMENTE UM VALOR VAI FICAR TODOS OS 4 LADOS NA MESMA MEDIDA EX: padding: 10px;
+            SE POR SOMENTE DOIS VALORES O PRIMEIRO VALOR (10px) REFERE-SE Á TOP E BOTTOM E O SEGUNDO VALOR (20px) REFERE-SE A RIGHT E LEFT EX padding: 10px 20px;
+            */
+           
+            padding: 10px 10px 10px 10px;
+
+            /*margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 40px;
+            margin-left: 10px;
+            */
+            
+            margin: 10px auto 40px auto; /* caso queira centralizar a margin, pode usar auto no right e auto no left como esta a cima*/
+
+            /*outline-width: 5px;
+            outline-style: dashed;
+            outline-color: rgb(238, 154, 28);*/
+
+            outline: 5px dashed rgb(238, 154, 28) ;
+            
+        }
+
+        p > a { /* inline-level não muda tamanho, altura e largura. Caso queira fazer alterações use o display: inline-block;*/
+
+            border-width: 10px;
+            border-style: groove;
+            border-color: darkorange;
+            
+            padding-top: 10px; 
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+
+        div {
+            text-align: center;
+        
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+        <p>Parágrafo também são exemplos de box-level, mas os <a href="#">links são exmols de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+
+    <div><a href="caixa02.html" rel="next">Próxima página</a></div>
+</body>
+</html>

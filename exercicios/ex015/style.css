@@ -1,0 +1,19 @@
+@charset "UTF-8"; 
+/*Use reagra @charset "UTF-8" tem compatibilidade com acentuação*/
+  body {
+    background-color: rgb(250, 230, 193);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+  }
+  h1 {
+      color: rgb(241, 68, 68);
+      background-color: rgba(255, 0, 76, 0.103);
+      font-size: 1.5em;
+  }
+  h2 {
+      color: brown;
+      font-size: 1.2em;
+  }
+  p {
+      text-align: justify;
+  }

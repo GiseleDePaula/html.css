@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="GP-icon.png" type="image/x-icon">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol>
+        <li>Acordar <li>Orar <li>Tomar banho <li>Tomar café <li>Trabalhar
+    </ol>
+    <!--Se quiser que já começe de um determinado número obs: a baixo-->
+    <ol type="1"start="4">
+        <li>Acordar <li>Orar <li>Tomar banho <li>Tomar café <li>Trabalhar
+    </ol>
+    <ol type="A">
+        <li>Acordar <li>Orar <li>Tomar banho <li>Tomar café <li>Trabalhar
+    </ol>
+    <ol type="a">
+        <li>Acordar <li>Orar <li>Tomar banho <li>Tomar café <li>Trabalhar
+    </ol>
+    <ol type="I">
+        <li>Acordar <li>Orar <li>Tomar banho <li>Tomar café <li>Trabalhar
+    </ol>
+    <ol type="i">
+        <li>Acordar <li>Orar <li>Tomar banho <li>Tomar café <li>Trabalhar
+    </ol>
+    <h2>Listas não Ordenadas</h2>
+    <!--Lembrando que o disc é padrão, mas também pode por no type="disc"-->
+     <ul>
+        <li>Acordar <li>Orar <li>Tomar banho <li>Tomar café <li>Trabalhar
+     </ul>
+     <ul type="circle">
+        <li>Acordar <li>Orar <li>Tomar banho <li>Tomar café <li>Trabalhar
+     </ul>
+     <ul type="square">
+        <li>Acordar <li>Orar <li>Tomar banho <li>Tomar café <li>Trabalhar
+     </ul>
+     <h2>Juntando listas versão 1.0</h2>
+     <h3>Meus livros favoritos</h3>
+     <ol>
+        <li>Livros cristão</li>
+        <ol type="a">
+            <li>Biblia</li><li>O homem mais inteligente da história</li>
+        </ol>
+        <br><!--O <br> serve para dar espaços-->
+        <li>Livros de autoajuda</li>
+        <ol type="a" start="3"><!-- Esse start é um exmplo de que a sequência pode ser auternada na mesmo estando em outo ponto ex:a,b,c,d... -->
+            <li>Seja líder de si mesma</li><li>Desperte sua força interior</li>
+        </ol>
+          <br>
+    </ol>      
+    <h3>Meus desenhos favoritos</h3>
+    <ol>
+        <li>Desenhos asiaticos</li> 
+        <ul type="disc">
+            <li>Jaspion</li>
+            <ul type="circle">
+                <li>coreano</li>
+            </ul>
+            <li>Giraia</li>
+            <ul type="square">
+                <li>chinês</li>
+            </ul>
+        </ul>
+    </ol>
+
+    <h2>Lista de Definições</h2> 
+    <dl>
+        <dt>HTML</dt><!--Termo-->
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd><!--Definição-->
+        <dt>CSS</dt>
+        <dd>LInguagem de marcação para a criação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+    </dl>
+
+
+</body>
+</html>
