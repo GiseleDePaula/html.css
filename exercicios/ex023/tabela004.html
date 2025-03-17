@@ -35,14 +35,14 @@
         <caption><strong>Filmes Favoritos</strong></caption>
         <thead>
             <tr>
-                <td><strong>Grupo</strong></td>
-                <td><strong>Nomes</strong></td>
-                <td colspan="3"><strong>Filmes</strong></td>
+                <td scope="col"><strong>Grupo</strong></td>
+                <td scope="col"><strong>Nomes</strong></td>
+                <td colspan="3" scope="colgroup"><strong>Filmes</strong></td>
             </tr>
 
             <tbody>
                 <tr>
-                    <td rowspan="3"><strong>Mulheres</strong></td>
+                    <td rowspan="3" scope="rowgroup"><strong>Mulheres</strong></td>
                     <td>Ana Maria Santos</td>
                     <td>Alien</td>
                     <td>Rambo</td>
@@ -61,7 +61,7 @@
                     <td>Big Hero</td>
                 </tr>
                 <tr>
-                    <td rowspan="3"><strong>Homens</strong></td>
+                    <td rowspan="3" scope="rowgroup"><strong>Homens</strong></td>
                     <td>Bruno Mendonça</td>
                     <td>Intocáveis</td>
                     <td>Amnésia</td>
@@ -81,6 +81,10 @@
                 </tr>
             </tbody>
         </thead>
+        <tfoot>
+            <th colspan="4" scope="row">Total</th>
+            <td>1000</td>
+        </tfoot>
     </table>
 </body>
 </html>
