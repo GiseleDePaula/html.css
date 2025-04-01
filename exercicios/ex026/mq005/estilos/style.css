@@ -37,7 +37,7 @@ header h1 {
 
 menu {
     display: none;
-    background-color: rgba(82, 81, 81, 0.507);
+    
 }
 
 menu > ul {
@@ -46,15 +46,18 @@ menu > ul {
 
 menu a {
     display: block;
+    background-color: rgba(70, 68, 68, 0.507);
     color: white;
     text-decoration: none;
     text-align: center;
     padding: 10px;
-    border: 1px solid grey;
+    border: 1px solid rgb(185, 182, 182);
 }
 
 a:hover {
    background-color: rgb(177, 172, 172);
+   color: black;
+   transition-duration: 1s;
 }
 
 main {
