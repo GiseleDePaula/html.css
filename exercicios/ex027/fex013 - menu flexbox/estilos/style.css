@@ -55,7 +55,7 @@ nav > a:hover {
 
 main {
     background-color: white;
-    width: 80%;  
+    width: 70%;  
     margin: auto;
     margin-top: 10px;
     border-radius: 10px;
@@ -72,10 +72,6 @@ section > p {
 
 @media screen and (max-width: 600px){
 
-    body {
-        width: 100%;
-    }
-
     header, nav {
         flex-flow: column nowrap;    
     }
@@ -87,6 +83,10 @@ section > p {
     nav > a {
         width: 80vw;
         margin: 2px;
+    }
+
+    main {
+        width: 400px;
     }
 
 }
